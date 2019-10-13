@@ -93,7 +93,7 @@ def menu(cubeWidth, duplicateFactor):
     d = input("Enter the complexity factor you'd like... ")
     while not str(d).isdigit():
         d = input("That's not a number. Please enter the complexity factor you'd like... ")
-    
+    logo()
     generate(int(c), int(d))
 
 menu(10, 2)
